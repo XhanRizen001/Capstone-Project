@@ -6,6 +6,7 @@ Note: Please do not remove the footer backlink (webthemez.com)--(if you want to 
 Licence: Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/
 */
 
+
 /*General*/
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open sans", Helvetica, Arial;
@@ -261,6 +262,7 @@ background: #f4b905;
 .text-muted {
 	color: #888;
 }
+
 .breadcrumb {
 	background: none;
 	padding: 0;
