@@ -28,18 +28,18 @@
     <div class="navbar-header"> 
       <!-- Button for smallest screens -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      <a class="navbar-brand" href="index.html"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
-      <a class="navbar-brand" href="index.html" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
-      <a class="navbar-brand" href="index.html"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+      <a class="navbar-brand" href="index.php"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+      <a class="navbar-brand" href="index.php" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
+      <a class="navbar-brand" href="index.php"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="barangay.html">Barangay Lists</a></li>
-        <li><a href="crimes.html">Crimes</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="barangay.php">Barangay Lists</a></li>
+        <li><a href="crimes.php">Crimes</a></li>
         </li>
-        <li><a href="contact.html">Contact us</a></li>
-        <li><a class="btn" href="signin.html" style="margin-left: 10px; ">SIGN IN</a></li>
+        <li><a href="contact.php">Contact us</a></li>
+        <li><a class="btn" href="signin.php" style="margin-left: 10px; ">SIGN IN</a></li>
       </ul>
     </div>
     <!--/.nav-collapse --> 
@@ -184,7 +184,7 @@
       <div class="row">
         <div class="col-md-6 panel">
           <div class="panel-body">
-            <p class="simplenav"> <a href="index.html">Home</a>| <a href="barangay.html">Barangay Lists</a> | <a href="crimes.html">Crimes</a> | <a href="contact.html">Contact Us</a> </p>
+            <p class="simplenav"> <a href="index.php">Home</a>| <a href="barangay.php">Barangay Lists</a> | <a href="crimes.php">Crimes</a> | <a href="contact.php">Contact Us</a> </p>
           </div>
         </div>
         <div class="col-md-6 panel">

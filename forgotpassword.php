@@ -3,16 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="vOne - Free Business HTML5 Responsive Website">
-	<meta name="author" content="webThemez.com">	
+	<meta name="description" content="">
+	<meta name="author"      content="webThemez.com">
+	
 	<title>CJSDM CRIME MONITORING</title>
-	<link rel="favicon" href="assets/images/favicon.png">	
+
+	<link rel="shortcut icon" href="assets/images/favicon.png">
+	
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
 	<!-- Custom styles for our template -->
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
 	<link rel="stylesheet" href="assets/css/style.css">
+
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.js"></script>
@@ -27,18 +32,18 @@
 		  <div class="navbar-header"> 
 			<!-- Button for smallest screens -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="index.html"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
-			<a class="navbar-brand" href="index.html" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
-			<a class="navbar-brand" href="index.html"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href="index.php"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href="index.php" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
+			<a class="navbar-brand" href="index.php"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
 		  </div>
 		  <div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav pull-right">
-			  <li ><a href="index.html">Home</a></li>
-			  <li><a href="barangay.html">Barangay Lists</a></li>
-			  <li><a href="crimes.html">Crimes</a></li>
+			  <li ><a href="index.php">Home</a></li>
+			  <li><a href="barangay.php">Barangay Lists</a></li>
+			  <li><a href="crimes.php">Crimes</a></li>
 			  </li>
-			  <li  class="active"><a href="contact.html">Contact us</a></li>
-			  <li><a class="btn" href="signin.html" style="margin-left: 10px; ">SIGN IN</a></li>
+			  <li  ><a href="contact.php">Contact us</a></li>
+			  <li><a class="btn" href="signin.php" style="margin-left: 10px; ">SIGN IN</a></li>
 			</ul>
 		  </div>
 		  <!--/.nav-collapse --> 
@@ -50,79 +55,73 @@
 
 	<!-- container -->
 	<div class="container">
-<div class="row">
-<div class="col-md-12">
-	<header class="page-header">
-					<h1 class="page-title">Contact us</h1>
-				</header>
-				
-				<p>
-					We’d love to hear from you. Interested in working together? Fill out the form below with some info about your project and I will get back to you as soon as I can. Please allow a couple days for me to respond.
-				</p>
-				<br>
-<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps?q=City%20of%20San%20Jose%20Del%20Monte%20PNP%20Headquarters%2C%20SJDM%2C%20Bulacan%2C%20Philippines&z=14&t=&ie=UTF8&output=embed"></iframe>
-<br/> <br/> 
-</div></div>
+
+		<ol class="breadcrumb">
+			<li><a href="index.php">Home</a></li>
+			<li class="active">Registration</li>
+		</ol>
+
 		<div class="row">
 			
 			<!-- Article main content -->
-			<article class="col-sm-8 maincontent">
-			
-					<form>
-						<div class="row">
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Name"><br/>
-							</div>
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Email ID"><br/>
-							</div>
-							<div class="col-sm-12">
-								<input class="form-control" type="text" placeholder="Phone No."><br/>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-sm-12">
-								<textarea placeholder="Type your message here..." class="form-control" rows="9"></textarea>
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-sm-6">
-								<input class="btn btn-action pull-left" type="submit" value="Send message">
-							</div>
-							<div class="col-sm-6 text-right">
-								
-							</div>
-						</div>
-					</form>
+			<article class="col-xs-12 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Registration</h1>
+				</header>
+				
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<h3 class="thin text-center">Forget Your Password</h3>
+							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signin.php">Login</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
+							<hr>
 
+							<form>
+								<div class="top-margin">
+									<label>Admin Name</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Position</label>
+									<input type="text" class="form-control">
+								</div>
+								<div class="top-margin">
+									<label>Username <span class="text-danger">*</span></label>
+									<input type="text" class="form-control">
+								</div>
+
+								<div class="row top-margin">
+									<div class="col-sm-6">
+										<label>Type New Password <span class="text-danger">*</span></label>
+										<input type="text" class="form-control">
+									</div>
+									<div class="col-sm-6">
+										<label>Confirm New Password <span class="text-danger">*</span></label>
+										<input type="text" class="form-control">
+									</div>
+								</div>
+
+								<hr>
+
+								<div class="row">
+									<div class="col-lg-8">
+										                    
+									</div>
+									<div class="col-lg-4 text-right">
+										<button class="btn btn-action" type="submit">Confirm</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+				
 			</article>
 			<!-- /Article -->
-			
-			<!-- Sidebar --> 
-            <div class="col-sm-4 sidebar sidebar-right">
-	  	<aside class="contact-details">
-					<address>
-					  <strong>CSJDM PNP HEADQUARTERS</strong><br>
-					  Morning Glory Subdivision Poblacion 1<br>
-					  San Jose del Monte City, 3023 Bulacan<br>
-					  <abbr title="Email"><i class="fa fa-envelope-o"></i> : </abbr> 0916 432 04019
-					</address>
-					
-					<address>
-					  <strong>Contact Details</strong><br>
-					  <abbr title="Phone"><i class="fa fa-phone"></i>:</abbr>0916 432 04019<br>
-					  <abbr title="Email"><i class="fa fa-globe"></i>:</abbr> <a href="https://csjdm.gov.ph/" target="_blank">https://csjdm.gov.ph/</a><br>
-					  <abbr title="Website"><i class="fa fa-globe"></i>:</abbr> <a href="http://bulacanpnp.com/index.html" target="_blank">http://bulacanpnp.com/index.html</a> 
-					</address>
-		</aside>
-      </div>
-			<!-- /Sidebar -->
 
 		</div>
 	</div>	<!-- /container -->
-	
-	 
 	
 	<footer id="footer" style="margin-top: 2px;">
 		<div class="footer1">
@@ -163,7 +162,7 @@
 			<div class="row">
 			  <div class="col-md-6 panel">
 				<div class="panel-body">
-				  <p class="simplenav"> <a href="index.html">Home</a>| <a href="barangay.html">Barangay Lists</a> | <a href="crimes.html">Crimes</a> | <a href="contact.html">Contact Us</a> </p>
+				  <p class="simplenav"> <a href="index.php">Home</a>| <a href="barangay.php">Barangay Lists</a> | <a href="crimes.php">Crimes</a> | <a href="contact.php">Contact Us</a> </p>
 				</div>
 			  </div>
 			  <div class="col-md-6 panel">
@@ -175,8 +174,7 @@
 			<!-- /row of panels --> 
 		  </div>
 		</div>
-	  </footer>
-		
+	  </footer>	
 
 
 
@@ -186,11 +184,5 @@
 	<script src="assets/js/headroom.min.js"></script>
 	<script src="assets/js/jQuery.headroom.min.js"></script>
 	<script src="assets/js/custom.js"></script>
-	
-	<!-- Google Maps -->
-	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-	<script src="assets/js/google-map.js"></script>
-	
-
 </body>
 </html>

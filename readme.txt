@@ -1,7 +1,7 @@
 vOne - Free Business HTML5 Responsive Website
 -------
 
-vOne – Corporate Business HTML5 Template with modern looking homepage layout, portfolio layout, about us, contact and services pages, full responsive, fontawesome modern flat icons. Developed on bootstrap HTML5 and CSS3 framework. Whether you want to create a business, corporate, creative or personal website, vOne HTML5 template leads you to create the right homepage
+vOne ï¿½ Corporate Business HTML5 Template with modern looking homepage layout, portfolio layout, about us, contact and services pages, full responsive, fontawesome modern flat icons. Developed on bootstrap HTML5 and CSS3 framework. Whether you want to create a business, corporate, creative or personal website, vOne HTML5 template leads you to create the right homepage
 
 
 Features :

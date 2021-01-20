@@ -32,18 +32,18 @@
 		  <div class="navbar-header"> 
 			<!-- Button for smallest screens -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="index.html"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
-			<a class="navbar-brand" href="index.html" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
-			<a class="navbar-brand" href="index.html"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href="index.php"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href="index.php" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
+			<a class="navbar-brand" href="index.php"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
 		  </div>
 		  <div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav pull-right">
-			  <li ><a href="index.html">Home</a></li>
-			  <li><a href="barangay.html">Barangay Lists</a></li>
-			  <li><a href="crimes.html">Crimes</a></li>
+			  <li ><a href="index.php">Home</a></li>
+			  <li><a href="barangay.php">Barangay Lists</a></li>
+			  <li><a href="crimes.php">Crimes</a></li>
 			  </li>
-			  <li  ><a href="contact.html">Contact us</a></li>
-			  <li><a class="btn" href="signin.html" style="margin-left: 10px; ">SIGN IN</a></li>
+			  <li  ><a href="contact.php">Contact us</a></li>
+			  <li><a class="btn" href="signin.php" style="margin-left: 10px; ">SIGN IN</a></li>
 			</ul>
 		  </div>
 		  <!--/.nav-collapse --> 
@@ -57,8 +57,8 @@
 	<div class="container">
 
 		<ol class="breadcrumb">
-			<li><a href="index.html">Login</a></li>
-			<li class="active">Admin Access</li>
+			<li>Admin Dashboard</a></li>
+			
 		</ol>
 
 		<div class="row">
@@ -66,41 +66,10 @@
 			<!-- Article main content -->
 			<article class="col-xs-12 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">Sign in</h1>
+					<h1 class="page-title">ADMIN <i>(username)</i></h1>
 				</header>
 				
-				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-					<div class="panel panel-default">
-						<div class="panel-body">
-							<h3 class="thin text-center">Sign in PNP Admin Account</h3>
-							<p class="text-center text-muted">Lorem ipsum dolor sit amet, <a href="signup.html">Register</a> adipisicing elit. Quo nulla quibusdam cum doloremque incidunt nemo sunt a tenetur omnis odio. </p>
-							<hr>
-							
-							<form>
-								<div class="top-margin">
-									<label>Username/Email <span class="text-danger">*</span></label>
-									<input type="text" class="form-control">
-								</div>
-								<div class="top-margin">
-									<label>Password <span class="text-danger">*</span></label>
-									<input type="password" class="form-control">
-								</div>
-
-								<hr>
-
-								<div class="row">
-									<div class="col-lg-8">
-										<b><a href="">Forgot password?</a></b>
-									</div>
-									<div class="col-lg-4 text-right">
-										<button class="btn btn-action" type="submit">Sign in</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-
-				</div>
+				
 				
 			</article>
 			<!-- /Article -->
@@ -147,7 +116,7 @@
 			<div class="row">
 			  <div class="col-md-6 panel">
 				<div class="panel-body">
-				  <p class="simplenav"> <a href="index.html">Home</a>| <a href="barangay.html">Barangay Lists</a> | <a href="crimes.html">Crimes</a> | <a href="contact.html">Contact Us</a> </p>
+				  <p class="simplenav"> <a href="index.php">Home</a>| <a href="barangay.php">Barangay Lists</a> | <a href="crimes.php">Crimes</a> | <a href="contact.php">Contact Us</a> </p>
 				</div>
 			  </div>
 			  <div class="col-md-6 panel">
