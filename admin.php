@@ -1,3 +1,9 @@
+<?php
+require('session.php');
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,18 +38,17 @@
 		  <div class="navbar-header"> 
 			<!-- Button for smallest screens -->
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="index.php"><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
-			<a class="navbar-brand" href="index.php" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
-			<a class="navbar-brand" href="index.php"><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href=""><img src="assets/images/SJDM.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
+			<a class="navbar-brand" href="" style="font-size: 50px;font-style: initial;">CSJDM CRIMES</a>
+			<a class="navbar-brand" href=""><img src="assets/images/PNP.png" alt="SJDM LOGO" style="height:4em;margin-top:-30px;padding: 0px;"></a>
 		  </div>
 		  <div class="navbar-collapse collapse">
+		  <form method ="POST" action="logout.php">
 			<ul class="nav navbar-nav pull-right">
-			  <li ><a href="index.php">Home</a></li>
-			  <li><a href="barangay.php">Barangay Lists</a></li>
-			  <li><a href="crimes.php">Crimes</a></li>
-			  </li>
-			  <li  ><a href="contact.php">Contact us</a></li>
-			  <li><a class="btn" href="signin.php" style="margin-left: 10px; ">SIGN IN</a></li>
+			  <li class="active"><a href="">Admin</a></li>
+			  
+			  <li><a><input  class="btn"  style="padding: 10px; margin-top:-10px; margin-bottom:0px" type="submit" value="LOGOUT"></a></li>
+			 </form>
 			</ul>
 		  </div>
 		  <!--/.nav-collapse --> 
@@ -66,7 +71,7 @@
 			<!-- Article main content -->
 			<article class="col-xs-12 maincontent">
 				<header class="page-header">
-					<h1 class="page-title">ADMIN <i>(username)</i></h1>
+					<h1 class="page-title">ADMIN <i><?php echo $_SESSION['username'];?></i></h1>
 				</header>
 				
 				

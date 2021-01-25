@@ -1,23 +1,41 @@
 
 <?php
-	
+	require ("connection.php");
+	session_start();
+
+	if($_SESSION['status']=='invalid' || empty($_SESSION['status'])){
+		
+		$_SESSION['status'] = 'invalid';
+	}
+	if($_SESSION['status']=='valid'){
+		echo "<script> window.location.href = 'admin.php'</script>";
+	}
+
 	if(isset($_POST['login'])){
 		$username = trim($_POST['username']);
 		$password= trim($_POST['password']);
-	}
-
-	if (empty($username) || empty($password)){
 	
-
-
-	}else{
+	if (empty($username) || empty($password)){	
 		
+		echo "<script> alert('Please Complete Username and Password!') </script>";
+	}else{
+		$queryValidate = "SELECT * FROM admin_tbl WHERE admin_user = '$username' AND admin_pass = '$password'";
+		$sqlValidate = mysqli_query($connection, $queryValidate);
+		$rowValidate = mysqli_fetch_array($sqlValidate);
+
+		if(mysqli_num_rows($sqlValidate)>0){	
+			$_SESSION['status'] = "valid";
+			$_SESSION['username'] = $rowValidate['admin_user']; 
+			echo "<script> window.location.href = 'admin.php'</script>";
+		}else{
+			$_SESSION['status'] = "invalid";
+			echo "<script> alert('Invalid Username or Password!') </script>";
+		}
+
+
 	}
+}
 
-
-	require "connection.php";
-	
-	
 
 ?>
 
@@ -99,8 +117,8 @@
 						<div class="panel-body">
 							<h3 class="thin text-center">Sign in PNP Admin Account</h3>
 							<hr>
-							
-							<form method="POST" action="signin.php"> 
+							<!-- this is the username and password -->
+							<form  action="signin.php" method="post"> 
 								<div class="top-margin">
 									<label>Username<span class="text-danger">*</span></label>
 									<input type="text" class="form-control" name="username">
@@ -117,7 +135,7 @@
 										<b><a href="forgotpassword.php">Forgot password?</a></b>
 									</div>
 									<div class="col-lg-4 text-right">
-										<button class="btn btn-action" name="login" type="submit">Sign in</button>
+										<input class="btn btn-action" name="login" type="submit" value="Sign In"></input>
 									</div>
 								</div>
 							</form>

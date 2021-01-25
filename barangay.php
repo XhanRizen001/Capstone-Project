@@ -56,8 +56,8 @@
 				</header> 
                 </div>
 		 </div>
-		 <div >
-		 <table style="border: black solid; border-collapse: collapse; width: 80%;">
+		 <div class="table-responsive">
+		 <table  style="border: black solid; border-collapse: collapse; width: 80%;">
 			<thead style="border: black solid;"><tr>
 			<th style="padding-left: 20px;">No.</th>
 			<th style="width: 250px;">Barangay</th>
