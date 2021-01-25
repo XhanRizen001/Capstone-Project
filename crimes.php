@@ -113,6 +113,7 @@
                                     </div>
                                 </div>
                             </li>
+                            
 
                             <li class="col-sm-4 isotopeItem LeastSerious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
                                 <div class="portfolio-item">
@@ -274,6 +275,7 @@
                                     </div>
                                 </div>
                             </li>
+                            
 
                             <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
                                 <div class="portfolio-item">
@@ -429,6 +431,240 @@
                                     </div>
                                 </div>
                             </li>
+
+
+
+                            <li class="col-sm-4 isotopeItem MostSerious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Kidnapping</b></h3>
+                                    <img src="assets/images/kidnapping.png" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Bulgary</b></h3>
+                                    <img src="assets/images/bulgary.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Theft</b></h3>
+                                    <img src="assets/images/theft.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="col-sm-4 isotopeItem LeastSerious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Shoplifting</b></h3>
+                                    <img src="assets/images/shoplifting.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Fraud</b></h3>
+                                    <img src="assets/images/fraud.jpeg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem LeastSerious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Bribery</b></h3>
+                                    <img src="assets/images/bribery.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Identity Theft</b></h3>
+                                    <img src="assets/images/Identity-theft.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Forgery</b></h3>
+                                    <img src="assets/images/forgery.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem MostSerious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Terrorism</b></h3>
+                                    <img src="assets/images/terrorism.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-sm-4 isotopeItem Serious"  style="border: black solid; width: 370px; height: 280px; position: relative;">
+                                <div class="portfolio-item">
+                                    <h3 style="margin: 0%;"><b>Cyber Crime</b></h3>
+                                    <img src="assets/images/cybercrime.jpg" style="position: fixed; width: 335px; height: 240px; margin-top: px;">
+                                    
+                                   
+                                    <table style="height: 240px;">
+                                                
+                                    </table>
+                                 
+                                    <div class="portfolio-desc align-center">
+                                        <div class="folio-info">
+                                            <a href="assets/images/portfolio/img1.jpg" style="height: 100%; width: 100%;"  class="fancybox">
+                                                <h5>  CASES PER BARANGAY</h5>
+                                                <i class="fa fa-link fa-2x"></i>
+                                                <h5>vIEW MORE INFO</h5>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+
+                            
+
+
+
+
+
+
                             </ul>
                         </div>
 
